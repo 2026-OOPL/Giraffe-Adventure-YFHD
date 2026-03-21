@@ -24,6 +24,7 @@ void App::Start() {
     }
 
     m_Bee = std::make_shared<AnimatedCharacter>(beeImages);
+    
     m_Bee->SetZIndex(5);
     m_Bee->SetVisible(false);
     m_Root.AddChild(m_Bee);
